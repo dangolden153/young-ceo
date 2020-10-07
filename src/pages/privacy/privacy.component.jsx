@@ -4,7 +4,7 @@ import {TweenLite} from 'gsap'
 import Footer from '../../component/footer/footer.component';
 import Nav_bar from '../../component/navBar/navBar.component';
 
-import pics from '../../component/pictures/private.jpg';
+import pics from '../../component/pictures/privacy.jpg';
 import {Sec_container,Container,Img,Backgroun_color,Text,Text_container,Text_span,Footer_con,Header,Span,
     Span_con,Text_header,Span_box}
  from './privacy.styles';
