@@ -1,0 +1,51 @@
+.section4{
+    padding: 80px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+
+    .box-1{
+        height: 100vh;
+        background-color: orangered;
+        .box-con{
+            width: 40%;
+            text-align: center;
+            margin: 0 auto;
+
+            .box-text{
+                text-align: center;
+            }
+        }
+        
+    }
+}
+
+    .box2{
+        height: 100vh;
+        background-color: rgb(225, 0, 255);
+        width: 100%;
+
+        .box2-con{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            height: 100%;
+            padding-top: 15px;
+
+           .flex-box{
+               height: 10rem;
+               width: 18rem;
+               background-color: white;
+               margin: 10px;
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               justify-content: center;
+           }
+    }
+    }

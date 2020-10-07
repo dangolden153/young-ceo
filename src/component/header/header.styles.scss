@@ -1,0 +1,119 @@
+.header{
+height: 100vh;
+background-image: url('../pictures/header-img.jpg');
+background-position: center;
+background-size: cover;
+position: relative;
+
+.nav{
+z-index: 5;
+}
+.header-container{
+    opacity: 0;
+
+}
+    .header-con{
+        position: relative;
+        text-align: center;
+
+    }
+        .header-sub{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        font-size: 40px;
+        line-height: 56px;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 450px;
+        right: 55px;
+        font-family: 'Roboto', sans-serif; 
+        font-style: normal;
+        opacity: 0;
+
+        span{
+            letter-spacing: 4px; 
+        }
+       
+        @media screen and (max-width: 780px){
+
+        font-size: 36px;
+        line-height: 47px;
+        top: 378px
+        }
+
+        @media screen and (max-width: 590px){
+            font-size: 23px;
+            line-height: 36px;
+            top: 424px;
+            }
+    }
+
+    .heading-text {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        font-size: 46px;
+        line-height: 56px;
+        text-transform: uppercase;
+        padding: 20px;
+        position: absolute;
+        top: 127px;
+        letter-spacing: 1px; 
+        color: white;
+        font-family: 'Permanent Marker', cursive;
+        span{
+            opacity: 0;
+
+        }
+
+        @media screen and (max-width: 780px){
+            font-size: 40px;
+            line-height: 56px;
+            top: 230px
+        }
+        @media screen and (max-width: 590px){
+
+        font-size: 28px;
+        line-height: 38px;
+        top: 185px;
+        }
+    }  
+ 
+}
+
+
+.Header_vid{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    opacity: .7;
+
+   &::after{
+    content: ''; 
+    background-image: url('../pictures/header-img.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+     top: 0;
+     right: 0;
+
+ }
+   
+    video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+        z-index: -1;
+    }
+}
