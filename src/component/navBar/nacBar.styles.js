@@ -126,8 +126,6 @@ right: 0;
 top: 0;
 overflow: hidden;
 `
-export const Background  = styled.div`
 
-`
 
 
