@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 import pics from '../pictures/abt-1.jpg'
 
 import {Container,Text_img,Img_con,Img,Text_con,Header,Paragragh,Span_1,Span_2,Span_3} from './about-section1.styles'

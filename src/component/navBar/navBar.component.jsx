@@ -35,10 +35,10 @@ const Nav_bar = ()=>{
       </Text_con>
 
 
-    <Img_con  onClick={toggle} >
+    <Img_con   >
        { 
     state ? 
-    <Img>
+    <Img onClick={toggle} >
     <img src={nav_svg} alt="nav bar"/>
     { state ? null : <Nav_con><Nav_box/></Nav_con>}
 
@@ -46,10 +46,10 @@ const Nav_bar = ()=>{
 
      : 
      <Img_close_con>
-     <Img_close>
+     <Img_close onClick={toggle} >
      <img src={close_svg} alt="close bar"/> 
      </Img_close>
-     { state ? null : <Nav_con><Nav_box/></Nav_con>}
+     <Nav_con><Nav_box/></Nav_con>
 
     </Img_close_con>
      
