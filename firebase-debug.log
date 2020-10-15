@@ -1,0 +1,104 @@
+[debug] [2020-10-15T02:13:09.482Z] ----------------------------------------------------------------------
+[debug] [2020-10-15T02:13:09.488Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dangolden\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-10-15T02:13:09.489Z] CLI Version:   8.12.1
+[debug] [2020-10-15T02:13:09.491Z] Platform:      win32
+[debug] [2020-10-15T02:13:09.491Z] Node Version:  v12.14.1
+[debug] [2020-10-15T02:13:09.493Z] Time:          Thu Oct 15 2020 03:13:09 GMT+0100 (West Africa Standard Time)
+[debug] [2020-10-15T02:13:09.494Z] ----------------------------------------------------------------------
+[debug] [2020-10-15T02:13:09.494Z] 
+[debug] [2020-10-15T02:13:09.597Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-15T02:13:09.598Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Dangolden\Desktop\react\lereproject
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using lereproject. 
+[debug] [2020-10-15T02:13:45.490Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/lereproject  
+ 
+[debug] [2020-10-15T02:13:55.898Z] Server Error. Client network socket disconnected before secure TLS connection was established
+[debug] [2020-10-15T02:14:06.033Z] FirebaseError: Server Error. Client network socket disconnected before secure TLS connection was established
+    at Request._callback (C:\Users\Dangolden\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\Dangolden\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:223:5)
+    at Request.EventEmitter.emit (domain.js:475:20)
+    at Request.onRequestError (C:\Users\Dangolden\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:228:7)
+    at ClientRequest.EventEmitter.emit (domain.js:475:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:223:5)
+    at TLSSocket.EventEmitter.emit (domain.js:475:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[error] 
+[error] Error: Failed to get Firebase project lereproject. Please make sure the project exists and your account has permission to access it.
+[debug] [2020-10-15T02:14:21.616Z] ----------------------------------------------------------------------
+[debug] [2020-10-15T02:14:21.622Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dangolden\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-10-15T02:14:21.622Z] CLI Version:   8.12.1
+[debug] [2020-10-15T02:14:21.623Z] Platform:      win32
+[debug] [2020-10-15T02:14:21.623Z] Node Version:  v12.14.1
+[debug] [2020-10-15T02:14:21.625Z] Time:          Thu Oct 15 2020 03:14:21 GMT+0100 (West Africa Standard Time)
+[debug] [2020-10-15T02:14:21.625Z] ----------------------------------------------------------------------
+[debug] [2020-10-15T02:14:21.625Z] 
+[debug] [2020-10-15T02:14:21.688Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-15T02:14:21.690Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Dangolden\Desktop\react\lereproject
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using lereproject. 
+[debug] [2020-10-15T02:15:44.538Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/lereproject  
+ 
+[debug] [2020-10-15T02:15:54.818Z] Server Error. Client network socket disconnected before secure TLS connection was established
+[debug] [2020-10-15T02:16:04.981Z] FirebaseError: Server Error. Client network socket disconnected before secure TLS connection was established
+    at Request._callback (C:\Users\Dangolden\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\Dangolden\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:223:5)
+    at Request.EventEmitter.emit (domain.js:475:20)
+    at Request.onRequestError (C:\Users\Dangolden\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:228:7)
+    at ClientRequest.EventEmitter.emit (domain.js:475:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:223:5)
+    at TLSSocket.EventEmitter.emit (domain.js:475:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[error] 
+[error] Error: Failed to get Firebase project lereproject. Please make sure the project exists and your account has permission to access it.
