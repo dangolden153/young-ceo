@@ -1,0 +1,68 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Users\Dangolden\AppData\Local\Microsoft\WindowsApps;C:\Users\Dangolden\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Dangolden\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Users\Dangolden\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, lstat 'C:\Users\Dangolden\AppData\Local\Yarn\Cache\v6\npm-styled-components-5.2.0-6dcb5aa8a629c84b8d5ab34b7167e3e0c6f7ed74-integrity\node_modules\styled-components\.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "name": "lereproject",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.3.2",
+      "@testing-library/user-event": "^7.1.2",
+      "gsap": "^3.5.0",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "react-google-maps": "^9.4.5",
+      "react-redux": "^7.2.1",
+      "react-router-dom": "^5.2.0",
+      "react-scripts": "3.4.2",
+      "react-use": "^15.3.3",
+      "redux": "^4.0.5",
+      "reselect": "^4.0.0",
+      "sass": "^1.26.10",
+      "styled-components": "^5.1.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
